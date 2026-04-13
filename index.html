@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rebar Apts — Contact</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #1a3c5e 0%, #2d6a9f 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+      text-align: center;
+    }
+    .hotel-icon { font-size: 52px; margin-bottom: 0.5rem; }
+    .hotel-name {
+      font-size: 26px;
+      font-weight: 700;
+      color: #1a3c5e;
+      letter-spacing: 1px;
+    }
+    .hotel-tagline {
+      font-size: 13px;
+      color: #888;
+      margin-top: 4px;
+      margin-bottom: 1.8rem;
+      font-style: italic;
+    }
+    .divider {
+      height: 1px;
+      background: #e8e8e8;
+      margin: 1.2rem 0;
+    }
+    .section-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #aaa;
+      margin-bottom: 0.8rem;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 0.7rem;
+      font-size: 15px;
+      color: #333;
+    }
+    .contact-item .icon { font-size: 20px; }
+    .contact-item a {
+      color: #1a3c5e;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact-item a:hover { text-decoration: underline; }
+
+    .phone-row {
+      background: #f4f8ff;
+      border-radius: 12px;
+      padding: 0.9rem 1rem;
+      margin-bottom: 0.7rem;
+    }
+    .phone-number {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1a3c5e;
+      margin-bottom: 6px;
+    }
+    .phone-apps {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+    }
+    .app-badge {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+    .app-badge .app-icon { font-size: 18px; }
+    .badge-whatsapp {
+      background: #e8f8f0;
+      color: #25D366;
+    }
+    .badge-viber {
+      background: #f0eeff;
+      color: #7360f2;
+    }
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+    .social-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      transition: opacity 0.2s;
+    }
+    .social-btn:hover { opacity: 0.82; }
+    .social-btn .s-icon { font-size: 18px; }
+    .fb  { background: #e8f0fe; color: #1877f2; }
+    .ig  { background: #fce8f6; color: #c2185b; }
+    .tw  { background: #e8f5fe; color: #1da1f2; }
+    .yt  { background: #fee8e8; color: #ff0000; }
+
+    .address-row {
+      font-size: 13px;
+      color: #666;
+      margin-top: 0.4rem;
+      line-height: 1.6;
+    }
+    .address-row .icon { font-size: 16px; }
+
+    footer {
+      margin-top: 1.5rem;
+      font-size: 11px;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="hotel-icon">🏨</div>
+    <div class="hotel-name">Rebar Apartments</div>
+    <div class="hotel-name">شقق ريبار السياحية</div>
+    <div class="hotel-tagline"> ريبار قرب سولاف في العمادية - أقليم كردستان العراق </div>
+
+    <div class="section-title">Phone &amp; Messaging </div>
+
+    <div class="phone-row">
+      <div class="phone-number">📞 +964 777 998 5959 - AsiaCell </div>
+      <div class="phone-apps">
+        <a class="app-badge badge-whatsapp" href="https://wa.me/9647779985959" target="_blank">
+          <span class="app-icon">💬</span> WhatsApp
+        </a>
+        <a class="app-badge badge-viber" href="viber://chat?number=%2B9647779985959" target="_blank">
+          <span class="app-icon">📲</span> Viber
+        </a>
+      </div>
+      
+      <br>
+      <br>
+      <br>
+        <div class="phone-number">📞 +964 750 881 5756 - Korek </div>
+      <br>
+    </div>
+
+<!--     <div class="phone-row">
+      <div class="phone-number">📞 +964 777 998 5959</div>
+      <div class="phone-apps">
+        <a class="app-badge badge-whatsapp" href="https://wa.me/9647779985959" target="_blank">
+          <span class="app-icon">💬</span> WhatsApp
+        </a>
+        <a class="app-badge badge-viber" href="viber://chat?number=%2B9647779985959" target="_blank">
+          <span class="app-icon">📲</span> Viber
+        </a>
+      </div>
+    </div> -->
+
+    <div class="divider"></div>
+
+    <div class="section-title">Email &amp; Website</div>
+    <div class="contact-item">
+      <span class="icon">✉️</span>
+      <a href="mailto:info@amediya.com">info@amediya.com</a>
+    </div>
+    <div class="contact-item">
+      <span class="icon">🌐</span>
+      <a href="https://rebarapts.github.io" target="https://rebarapts.github.io/">Info Page</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section-title">Follow Us</div>
+    <div class="socials">
+      <a class="social-btn fb" href="https://www.facebook.com/rebar.apartments" target="https://www.facebook.com/rebar.apartments">
+        <span class="s-icon">📘</span> Facebook
+      </a>
+      <a class="social-btn ig" href="https://instagram.com/rebar.apartments" target="https://instagram.com/rebar.apartments">
+        <span class="s-icon">📸</span> Instagram
+      </a>
+<!--       <a class="social-btn tw" href="https://twitter.com/hotelgrandduhok" target="_blank">
+        <span class="s-icon">🐦</span> Twitter/X
+      </a> -->
+      <a class="social-btn yt" href="https://youtube.com/@RebarApartments" target="https://youtube.com/@RebarApartments">
+        <span class="s-icon">▶️</span> YouTube
+      </a>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section-title">Address</div>
+    <div class="address-row">
+
+      <br>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1591.0844166376255!2d43.490495754414034!3d37.101098386887784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4008b587eac36d85%3A0x5e3cc204b71b6ec8!2z2LTZgtmCINix2YrYqNin2LEg2KfZhNmF2YHYsdmI2LTYqQ!5e0!3m2!1sen!2siq!4v1776100016657!5m2!1sen!2siq" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <br>
+
+      <br>
+      <br>
+      <span class="icon">📍</span>
+      Rebar near Sulav, Amediya Town<br>
+      Kurdistan Region, Iraq
+    </div>
+
+    <footer>© 2026 Hotel Grand Duhok — All rights reserved</footer>
+  </div>
+</body>
+</html>
